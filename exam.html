@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<title>Home-Biolara</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<style >
+	button{
+		background-color: #1999a4;
+	}
+	.w3-animate-right{position:relative;animation:animateright 0.4s}@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+	 .s{
+      background-color: rgb(51,167,181) ;
+     
+      
+      text-align: center;
+     
+    
+      
+    }
+    .s img{
+      width: 50px;
+      height: 40px;
+      padding-right: 10px;
+      padding-left: 10px;
+      color: black;
+    }
+</style>
+<body>
+<div class="container mt-5">
+<div class="row">
+  <nav class="navbar navbar-expand-lg bg-light fixed-top">
+  	<div class="col-lg-2 col-md-1"></div>
+  	<div class="col-lg-4 col-md-5 col-sm-6">
+    <a class="navbar-brand" href="#">
+      <a href="exam.html"><img src="C:\Users\sowmy\OneDrive\Pictures\logo-biolara.png" alt="Logo" style="width:140px;height: 70px"></a>
+      <a class="btn btn-outline-dark ms-2" href="https://biolarapathway.com/pathway/" role="button" style="background-color: #1999a4;margin: 1px; width:100px;">Pathway</a>
+    </a>
+    
+  </div>
+  <div class="col-lg-1 col-md-1"></div>
+  <div class="col-lg-4 col-md-5 col-sm-6">
+
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="exam.html" style="text-decoration-color: black;">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact Us</a>
+      </li>
+    </ul>
+  </div>
+  <div class="col-lg-1"></div>
+
+</div>
+</div>
+</nav>
+<div class="container mt-30" style="padding-top: 50px;">
+	<div class="row">
+		<div class="col-lg-1 col-md-1"></div>
+		<div class="col-lg-3 col-md-2 col-sm-2">
+			<div class="w3-sidebar  w3-animate-left">
+				  
+				  <button class="w3-bar-item w3-button tablink btn-rounded mb-4" onclick="openLink(event, 'pcc')"style="background-color: #1999a4;">Patient care continuum</button>
+				  <button class="w3-bar-item w3-button tablink btn-rounded mb-4" onclick="openLink(event, 'rd')"style="background-color: #1999a4;">R&D</button>
+				  <button class="w3-bar-item w3-button tablink btn-rounded mb-4" onclick="openLink(event, 'wg')"style="background-color: #1999a4;">Working Groups</button>
+				  <button class="w3-bar-item w3-button tablink btn-rounded mb-4" onclick="openLink(event, 'cd')"style="background-color: #1999a4;">Compassionate use of drugs</button>
+				  
+			</div>
+		</div>
+		<div class="col-lg-3 col-md-3 col-sm-3">
+		  <div style="margin-left:10px">
+		  	 <div id="pcc" class="w3-container city w3-animate-opacity" style="display:none">
+		  	 	<img src="C:\Users\sowmy\OneDrive\Pictures\p1.png" style="width:55px; border-radius: 50%;"><a href="#rd" style="text-decoration:none;"onclick="openLink(event, 'sp')">Screening & Prevention</a>
+		  	 	<img src="C:\Users\sowmy\OneDrive\Pictures\p2.png" style="width:55px;"><a href="#rd" style="text-decoration:none;"onclick="openLink(event, 'ev')">Evaluation</a><br>
+		  	 	<img src="C:\Users\sowmy\OneDrive\Pictures\p3.png" style="width:55px;"><a href="#rd" style="text-decoration:none;"onclick="openLink(event, 'di')">Diagnosis</a><br>
+		  	 	<img src="C:\Users\sowmy\OneDrive\Pictures\p4.png" style="width:55px;"><a href="#rd" style="text-decoration:none;"onclick="openLink(event, 'mt')">Matching to treatment/trails</a><br>
+		  	 	<img src="C:\Users\sowmy\OneDrive\Pictures\p5.png" style="width:55px;"><a href="#rd" style="text-decoration:none;"onclick="openLink(event, 'dt')">Delivering treatment</a><br>
+		  	 	<img src="C:\Users\sowmy\OneDrive\Pictures\p6.png" style="width:55px;"><a href="#rd" style="text-decoration:none;"onclick="openLink(event, 'mo')">Monitoring</a>
+		  	 	
+		  	 </div>
+		  	 <div id="rd" class="w3-container city w3-animate-opacity" style="display:none">
+		  	 	<h3 style="color:#1999a4;">Collaborative R&D:</h3>
+		  	 	<p>One major area in enabling equitable access to cancer treatment and screening, is the harmonization of resources to push the boundaries of collaborative R&D. Our R&D partnering program allows for cutting-edge technology to be developed and deployed by leveraging infrastructure and resources available in developing nations such as India.  By reducing overheads and enhancing efficiency, it enables biotech companies to price products more affordably or obtain insights for differential pricing in varied geographies and provide effective therapeutic strategies. In doing so, many more patients might avail more reasonably priced solutions and transform patient care.</p>
+		  	 </div>
+		  	 <div id="wg" class="w3-container city w3-animate-opacity" style="display:none">
+		  	 	<h3 style="color:#1999a4;">Working groups:</h3>
+		  	 	<p>Directed working groups of patients and physicians enables greater awareness and dissipation of information and programs. The aim is to synergise communication between patients; between doctors; and between doctors and patients, thereby improving the dissipation of information on different cancer types and cancer subtypes. Interdisciplinary groups are also critical to cross-pollinate ideas and provide patients and doctors with information which might not be readily accessible. This need is further amplified in regions of the world where large tertiary care institutions are few and far between, especially in some of the more remote regions. </p>
+		  	 </div>
+		  	 <div id="cd" class="w3-container city w3-animate-opacity" style="display:none">
+		  	 	<h3 style="color:#1999a4;">Details will be announced soon !!
+</h3>
+		  	 	
+		  	 </div>
+		  	 
+
+		  </div>
+        </div>
+        <div class="col-lg-5 col-md-6 col-sm-7 "style="padding-top: 20px;">
+        	<div id="sp" class="w3-container city w3-animate-right" style="display:none">
+		  	 	<h4>Screening & Prevention</h4>
+		  	 	<img src="C:\Users\sowmy\OneDrive\Pictures\ar.png" style="width: 100px;"><img src="C:\Users\sowmy\OneDrive\Pictures\p11.png"style="width: 140px;height: 70px;">
+		  	 </div>
+		  	 <div id="ev" class="w3-container city w3-animate-right" style="display:none">
+		  	 	<h4>Evaluation</h4>
+		  	 	<img src="C:\Users\sowmy\OneDrive\Pictures\ar.png" style="width: 100px;"><img src="C:\Users\sowmy\OneDrive\Pictures\p14.png"style="width: 140px;height: 70px;">
+		  	 </div>
+		  	 <div id="di" class="w3-container city w3-animate-right" style="display:none">
+		  	 	<h4>Diagnosis</h4>
+		  	 	<img src="C:\Users\sowmy\OneDrive\Pictures\ar.png" style="width: 100px;"><img src="C:\Users\sowmy\OneDrive\Pictures\p15.png"style="width: 140px;height: 70px;">
+		  	 </div>
+		  	 <div id="mt" class="w3-container city w3-animate-right" style="display:none">
+		  	 	<h4>Matching to treatment/trails</h4>
+		  	 	<img src="C:\Users\sowmy\OneDrive\Pictures\ar.png" style="width: 100px;"><img src="C:\Users\sowmy\OneDrive\Pictures\p12.png"style="width: 140px;height: 70px;"><br>
+		  	 	<img src="C:\Users\sowmy\OneDrive\Pictures\ar.png" style="width: 100px;"><img src="C:\Users\sowmy\OneDrive\Pictures\p16.png"style="width: 140px;height: 70px;">
+		  	 </div>
+		  	 <div id="dt" class="w3-container city w3-animate-right" style="display:none">
+		  	 	<h4>Delivering treatment</h4>
+		  	 	<img src="C:\Users\sowmy\OneDrive\Pictures\ar.png" style="width: 100px;"><img src="C:\Users\sowmy\OneDrive\Pictures\p13.png"style="width: 140px;height: 70px;">
+		  	 </div>
+		  	 <div id="mo" class="w3-container city w3-animate-right" style="display:none">
+		  	 	<h4>Monitoring</h4>
+		  	 	<img src="C:\Users\sowmy\OneDrive\Pictures\ar.png" style="width: 100px;"><img src="C:\Users\sowmy\OneDrive\Pictures\p11.png"style="width: 140px;height: 70px;"><br>
+		  	 	<img src="C:\Users\sowmy\OneDrive\Pictures\ar.png" style="width: 100px;"><img src="C:\Users\sowmy\OneDrive\Pictures\p15.png"style="width: 140px;height: 70px;">
+		  	 </div>
+        </div>
+ </div>
+</div>
+
+<div class="container-fluid" style="background-color: rgb(51,167,181) ;margin-top: 800px;">
+   <div class="s">
+      <div class="row">
+        <div class="col-1"></div>
+        <div class="col-4"  style="padding-left: 0px; padding-right: 50px;">
+          <h4 style="color:white;"><strong>CONTACT US</strong></h4>
+          <p style="color:white;">BioLara,
+San Diego, CA 92120, USA.</p><br>
+          <p style="color:white;"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9ies_30agj4A8VWj_oz9z4wxNiDhWpCpOkm_SDz7A3m0-Hz17xqhDTIAuM0r4Qq3IVUc&usqp=CAU">+1 858 472 5590</p>
+          <p style="color:white;"><img src="https://www.nicepng.com/png/detail/222-2226601_email-icon-e-mail-white-icon-png.png">info@biolara.com</p>
+        </div>
+        <div class="col-3" >
+          <h4><strong>BIOLARA</strong></h4>
+          <a href="https://biolarapathway.com/privacy-policy/" style="text-decoration:none;color:white;">Privacy Policy</a>
+        </div>
+        <div class="col-2"  >
+          <h4 style="color:white;"><strong>FOLLOW US</strong></h4>
+          <div class="d-inline-flex ">
+            <div class="s1">
+              <img src="https://www.pngguru.in/storage/uploads/images/Facebook%20black%20icon%20transparent%20png_1657733536_831729719.webp">
+            </div>
+            <div class="s2">
+              <img src="https://p.kindpng.com/picc/s/30-300677_2017-intertech-americas-corp-twitter-icons-png-white.png">
+            </div>
+            <div class="s3">
+              <img src="https://www.pinpng.com/pngs/m/78-780463_white-linkedin-logo-transparent-background-thehappening-hd-png.png">
+            </div>
+            <div class="s4">
+              <img src="https://cutewallpaper.org/24/white-instagram-logo-png/bestsolutionsofinstagrampngtransparentpngimagesuniquewhite-instagramlogooutlineofwhiteinstagramlogooutlinecopy-%E2%80%93-type-8.png">
+            </div>
+          </div>
+          <div class="col-1"></div>
+        </div>
+      </div>
+@Copyright 2021-BioLara
+
+
+     </div>
+    
+</div>
+<script>
+function openLink(evt, animName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("city");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  
+  document.getElementById(animName).style.display = "block";
+ 
+}
+</script>
+</body>
+</html>
